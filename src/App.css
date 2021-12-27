@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.ds-flex {
+	display: flex;
+}
+
+.ds-flex__justify--center {
+	justify-content: center;
+}
+
+.ds-flex__align-center {
+  align-items: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.container__box {
+	max-width: 1000px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.ds-flex__item {
+	flex: 1;
+}
+
+.container__header {
+  width: 100%;
+}
+
+.ds-flex__justify--space-between {
+  justify-content: space-between;
+}
+
+.ds-flex__justify--end {
+  justify-content: flex-end;
+}
